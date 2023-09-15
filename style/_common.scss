@@ -1,6 +1,6 @@
 .section{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .container{
@@ -8,17 +8,8 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: solid red 2px;
-
-    @media screen and (min-width: $mobile) {
-        width: $mobile;
-    }
-
-    @media screen and (min-width: $tablet) {
-        width: $tablet;
-    }
-
-    @media screen and (min-width: $desktop) {
-        width: $desktop;
+    width: 375px;
+    @media screen and (min-width:1152px) {
+        width: 1152px;
     }
 }

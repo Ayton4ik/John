@@ -1,1 +1,70 @@
-/*# sourceMappingURL=main.css.map */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --logo-color: #000000;
+  --accent-color: #2196F3;
+  --background-color: #FFFFFF;
+  --hero-background-color: #2F303A;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  font-style: normal;
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 375px;
+}
+@media screen and (min-width: 1152px) {
+  .container {
+    width: 1152px;
+  }
+}
+
+.hero {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
