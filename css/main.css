@@ -53,11 +53,12 @@ li {
 }
 
 .container {
+  outline: solid 2px red;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 375px;
+  width: 380px;
 }
 @media screen and (min-width: 1152px) {
   .container {
@@ -67,4 +68,43 @@ li {
 
 .hero {
   text-align: center;
+}
+@media screen and (max-width: 1199px) {
+  .hero img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 33px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .hero h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 312px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 21px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .hero p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 328px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 38px;
+  }
+}
+.hero button {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 2px;
+  border: none;
+  padding: 17px 20px;
+  background: var(--Primary, #FF6464);
 }/*# sourceMappingURL=main.css.map */
