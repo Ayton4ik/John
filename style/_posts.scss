@@ -1,0 +1,52 @@
+.posts{
+    background-color: #EDF7FA;;
+}
+
+h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.article-list{
+    padding-bottom: 38px;
+    .item{
+        border-radius: 4px;
+        background-color: white;
+        box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+        padding: 12px 8px 22px 19px;
+
+        h3{
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: 12px;
+        }
+
+        div{
+            display: flex;
+            margin-bottom: 19px;
+        }
+
+        .date{
+            padding-right: 24px;
+        }
+
+        .robota{
+            padding-left: 24px;
+            border-left: solid 1px black;
+        }
+
+        .text{
+            width: 314px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .item:first-child{
+        margin-bottom: 17px;
+    }
+}

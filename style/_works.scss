@@ -1,0 +1,44 @@
+.works{
+    margin-bottom: 150px;
+    border-bottom: solid 1px #E0E0E0;
+}
+
+.work-img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17px;
+}
+
+.dashboards{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.flex{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.year{
+    border-radius: 16px;
+    background: #142850;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 900;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 22px;
+}
+
+.year + p{
+    color: var(--Light, #8695A4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.flex + p{
+    width: 344px;
+}

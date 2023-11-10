@@ -1,0 +1,20 @@
+.footer{
+    padding-top: 21px;
+    padding-bottom: 21px;
+    p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.svg-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 26px;
+
+    .item:not(:first-child){
+        margin-left: 35px;
+    }
+}
