@@ -7,6 +7,13 @@
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 33px;
+            width: 170.859px;
+            height: 170.859px;
+        }
+
+        @media screen and (min-width: $desktop) {
+            width: 243px;
+            height: 243px;
         }
     }
 
@@ -20,9 +27,18 @@
             line-height: 40px;
             margin-bottom: 21px;
         }
+
+        @media screen and (min-width: $desktop) {
+            width: 506px;
+            font-size: 44px;
+            font-weight: 700;
+            line-height: 60px; 
+            text-align: start;
+        }
     }
 
     p{
+        margin-bottom: 38px;
         @media screen and (max-width: 1199px) {
             margin-left: auto;
             margin-right: auto;
@@ -30,7 +46,11 @@
             font-size: 16px;
             font-weight: 400;
             line-height: normal;
-            margin-bottom: 38px;
+        }
+
+        @media screen and (min-width: $desktop) {
+            width: 497px;
+            text-align: start;
         }
     }
 
@@ -43,5 +63,19 @@
         border: none;
         padding: 17px 20px;
         background: var(--Primary, #FF6464);
+    }
+}
+
+.flex-hero{
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+    }
+
+    div{
+        @media screen and (min-width: $desktop) {
+            margin-right: 115px;
+        }
     }
 }
